@@ -1,5 +1,10 @@
 body{
     margin: 0em;
+    background-image: url("FONDO.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.253);
+    background-blend-mode: darken;
 }
 .cover{
     height: 400px;
@@ -9,6 +14,7 @@ body{
     background-position:center;
     background-color: rgba(0, 0, 0, 0.253);
     background-blend-mode: darken;
+
 }
 .cover-small{
     height: 200px;
@@ -24,4 +30,20 @@ body{
 
 .card-text{
     min-height: 5rem;
+}
+
+.product-stripe{
+    overflow-x: scroll;
+    padding: 1rem;
+    
+}
+.stripe-container{
+    display: flex;
+    flex-direction:row;
+
+}
+.stripe-container .card{
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 1rem;
 }
